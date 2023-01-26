@@ -60,8 +60,8 @@ def qiskitpauli_to_qubitop(qiskit_pauli: SummedOp) -> QubitOperator:
         QubitOperator representing the SummedOp
     """
 
-    if not isinstance(qiskit_pauli, SummedOp):
-        raise TypeError("qiskit_pauli must be a qiskit SummedOp")
+    #if not isinstance(qiskit_pauli, SummedOp):
+    #    raise TypeError("qiskit_pauli must be a qiskit SummedOp")
 
     transformed_term = QubitOperator()
 
